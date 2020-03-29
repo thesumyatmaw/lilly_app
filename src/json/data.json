@@ -1,0 +1,142 @@
+[
+  {
+    "diaperSizeName": "1",
+    "diaperSizeTitle": "(2-5 KG)",
+    "trialPackImg": "https://www.lillydoo.com/bundles/lepweb/img/trialbox/lillydoo-testpaket-10.jpg",
+    "trialPackIncludes":[
+      {
+        "title":"10 LILLYDOO DIAPERS",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/lillydoo-little-blowballs-design-preview-tp.png",
+        "reviewsCount": 12,
+        "ratingValues": 4.5,
+        "details": [
+          "0% perfumes & lotions, 100% LILLYDOO protection",
+          "Extra soft and super comfortable",
+          "With our turbo tunnels for an ideal fit and quick absorption"
+        ]
+      },
+      {
+        "title":"15 WET WIPES WITH 99% WATER",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/products/wipes/water-wipes-15-small.png",
+        "reviewsCount": 114,
+        "ratingValues": 4.5,
+        "details": [
+          "0% perfumes & PEGs, 100% biodegradable",
+          "Naturally pure, extra mild, alternative to \"water & cotton\""
+        ]
+      }
+    ]
+  },
+  {
+    "diaperSizeName": "2",
+    "diaperSizeTitle": "(4-8 KG)",
+    "trialPackImg": "https://www.lillydoo.com/bundles/lepweb/img/trialbox/lillydoo-testpaket-20.jpg",
+    "trialPackIncludes":[
+      {
+        "title":"10 LILLYDOO DIAPERS",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/lillydoo-little-blowballs-design-preview-tp.png",
+        "reviewsCount": 91,
+        "ratingValues": 4.8,
+        "details": [
+          "0% perfumes & lotions, 100% LILLYDOO protection",
+          "Extra soft and super comfortable",
+          "With our turbo tunnels for an ideal fit and quick absorption"
+        ]
+      },
+      {
+        "title":"15 WET WIPES WITH 99% WATER",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/products/wipes/water-wipes-15-small.png",
+        "reviewsCount": 114,
+        "ratingValues": 4.5,
+        "details": [
+          "0% perfumes & PEGs, 100% biodegradable",
+          "Naturally pure, extra mild, alternative to \"water & cotton\""
+        ]
+      }
+    ]
+  },
+  {
+    "diaperSizeName": "3",
+    "diaperSizeTitle": "(6-10 KG)",
+    "trialPackImg": "https://www.lillydoo.com/bundles/lepweb/img/trialbox/lillydoo-testpaket-30.jpg",
+    "trialPackIncludes":[
+      {
+        "title":"10 LILLYDOO DIAPERS",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/lillydoo-little-blowballs-design-preview-tp.png",
+        "reviewsCount": 327,
+        "ratingValues": 4.7,
+        "details": [
+          "0% perfumes & lotions, 100% LILLYDOO protection",
+          "Extra soft and super comfortable",
+          "With our turbo tunnels for an ideal fit and quick absorption"
+        ]
+      },
+      {
+        "title":"15 WET WIPES WITH 99% WATER",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/products/wipes/water-wipes-15-small.png",
+        "reviewsCount": 114,
+        "ratingValues": 4.5,
+        "details": [
+          "0% perfumes & PEGs, 100% biodegradable",
+          "Naturally pure, extra mild, alternative to \"water & cotton\""
+        ]
+      }
+    ]
+  },
+  {
+    "diaperSizeName": "4",
+    "diaperSizeTitle": "(9-14 KG)",
+    "trialPackImg": "https://www.lillydoo.com/bundles/lepweb/img/trialbox/lillydoo-testpaket-40.jpg",
+    "trialPackIncludes":[
+      {
+        "title":"10 LILLYDOO DIAPERS",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/lillydoo-little-blowballs-design-preview-tp.png",
+        "reviewsCount": 481,
+        "ratingValues": 4.7,
+        "details": [
+          "0% perfumes & lotions, 100% LILLYDOO protection",
+          "Extra soft and super comfortable",
+          "With our turbo tunnels for an ideal fit and quick absorption"
+        ]
+      },
+      {
+        "title":"15 SENSITIVE WET WIPES",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/products/wipes/sensitive-wipes-15-small.jpg",
+        "reviewsCount": 46,
+        "ratingValues": 4.3,
+        "details": [
+          "0% perfumes & PEGs, 100% biodegradable",
+          "Extra thick and compostable cloth"
+        ]
+      }
+    ]
+  },
+  {
+    "diaperSizeName": "5",
+    "diaperSizeTitle": "(11-16 KG)",
+    "trialPackImg": "https://www.lillydoo.com/bundles/lepweb/img/trialbox/lillydoo-testpaket-50.jpg",
+    "trialPackIncludes":[
+      {
+        "title":"10 LILLYDOO DIAPERS",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/lillydoo-little-blowballs-design-preview-tp.png",
+        "reviewsCount": 387,
+        "ratingValues": 4.8,
+        "details": [
+          "0% perfumes & lotions, 100% LILLYDOO protection",
+          "Extra soft and super comfortable",
+          "With our turbo tunnels for an ideal fit and quick absorption"
+        ]
+      },
+      {
+        "title":"15 SENSITIVE WET WIPES",
+        "img": "https://www.lillydoo.com/bundles/lepweb/img/products/wipes/sensitive-wipes-15-small.jpg",
+        "reviewsCount": 46,
+        "ratingValues": 4.3,
+        "details": [
+          "0% perfumes & PEGs, 100% biodegradable",
+          "Extra thick and compostable cloth"
+        ]
+      }
+    ]
+  }
+]
