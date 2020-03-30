@@ -1,8 +1,8 @@
 <template>
   <div>
     <b-container fluid>
-      <b-row class="m-b-20">
-        <b-col md="6" class="diaperSizes">
+      <b-row class="m-b-20">     
+        <b-col md="6" class="diaperSizes order-2 order-lg-1">
           <h2>Discover our skin friendlines</h2>
           <p>CHOOSE YOUR SIZE</p>
           <b-nav pills>
@@ -26,7 +26,7 @@
           </p>
           <ul class="bullet-list-info">
             <li>We pay for the products, you only pay for the shipping.</li>
-            <li style="color: #00afab;">
+            <li class="pale-green-color">
               Automatic transition to diaper subscription that can be canceled
               at any time for € 49.50 per delivery.
             </li>
@@ -36,7 +36,7 @@
             </li>
           </ul>
         </b-col>
-        <b-col md="6" class="trial-pack-image">
+        <b-col md="6" class="trial-pack-image order-1 order-lg-2">
           <img
             v-if="selectedDiaperSize && selectedDiaperSize.trialPackImg"
             :src="selectedDiaperSize.trialPackImg">
@@ -44,14 +44,16 @@
       </b-row>
     </b-container>
     <b-container fluid
-      v-if="selectedDiaperSize && selectedDiaperSize.trialPackIncludes.length >= 1">
-      <b-row class="m-b-20" style="padding:20px;">
+      v-if="selectedDiaperSize && selectedDiaperSize.trialPackIncludes.length >= 1"
+      class="test-pack-container"
+    >
+      <b-row class="m-b-20 padding-20">
         <b-col>
           <h2 class="testPLabel">Your test package contains</h2>
         </b-col>
       </b-row>
 
-      <b-row style="margin-top:30px;"
+      <b-row class="m-t-30"
         v-for="(chunk, index) in trialPackIncludesChuncks"
         v-bind:key="index"
       >
@@ -125,6 +127,24 @@ export default {
 $margin-right-bottom-7px: 0 7px 7px 0;
 $active-hover-color: #52b0ac;
 
+@mixin bullet-list {
+  list-style-position: outside;
+  font-weight: 500;
+}
+@mixin fontSz-txtAlin-pad($fontSize-value, $textAlign-value, $padding-value) {
+  font-size: $fontSize-value;
+  text-align: $textAlign-value;
+  padding: $padding-value;
+}
+@mixin max-full-width {
+  max-width: 100%;
+  flex: none;
+}
+@mixin max-half-width {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
 .diaperSizes.col-md-6{
   .nav{
     margin-bottom: 20px;
@@ -181,6 +201,9 @@ $active-hover-color: #52b0ac;
 .testPLabel{
   font-size: 1.5rem;
 }
+.test-pack-container{
+  background-color: #f8f8f8;
+}
 .trial-pack-includes.col-md-6{
   max-width: 100%;
   padding: 25px;
@@ -209,23 +232,19 @@ $active-hover-color: #52b0ac;
     }
   }
 }
-
 /* Media queries */
 @media (min-width: 768px) {
   .diaperSizes.col-md-6{
-    max-width: 100%;
-    flex: none;
+    @include max-full-width;
   }
   .nav-item.diaperSize{
     width: 18%;
   }
   .trial-pack-image.col-md-6{
-    max-width: 100%;
-    flex: none;
+    @include max-full-width;
   }
   .trial-pack-includes.col-md-6 {
-    max-width: 100%;
-    flex: none;
+    @include max-full-width;
     padding: 20px;
 
     .productImg img{
@@ -235,26 +254,22 @@ $active-hover-color: #52b0ac;
       padding-left: 90px;
     }
   }
-
 }
 @media (min-width: 900px) {
   .testPLabel{
     font-size: 1.7rem;
   }
   .diaperSizes.col-md-6{
-    max-width: 50%;
-    flex: 0 0 50%;
+    @include max-half-width;
   }
   .nav-item.diaperSize{
     width: unset;
   }
   .trial-pack-image.col-md-6{
-    max-width: 50%;
-    flex: 0 0 50%;
+    @include max-half-width;
   }
   .trial-pack-includes.col-md-6 {
-    max-width: 50%;
-    flex: 0 0 50%;
+    @include max-half-width;
 
     .productImg img{
       width: 140px;
@@ -264,18 +279,17 @@ $active-hover-color: #52b0ac;
     }
   }
 }
-
+.pale-green-color{
+  color: #00afab;
+}
+.m-t-30{
+  margin-top: 30px;
+}
 .m-b-20{
  margin-bottom: 20px;
 }
-@mixin bullet-list {
-  list-style-position: outside;
-  font-weight: 500;
-}
-@mixin fontSz-txtAlin-pad($fontSize-value, $textAlign-value, $padding-value) {
-  font-size: $fontSize-value;
-  text-align: $textAlign-value;
-  padding: $padding-value;
+.padding-20{
+  padding: 20px;
 }
 ul.bullet-list-info {
   @include bullet-list;
