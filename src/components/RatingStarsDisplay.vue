@@ -1,11 +1,17 @@
 <template>
   <div>
     <div class="h5 mb-2">
-      <b-icon-star-fill variant="warning"></b-icon-star-fill>
-      <b-icon-star variant="warning"></b-icon-star>
-      <b-icon-star variant="warning"></b-icon-star>
-      <b-icon-star variant="warning"></b-icon-star>
-      <b-icon-star-half variant="warning"></b-icon-star-half>
+      <span v-for="index in 5" :key="index">
+        <b-icon-star-fill variant="warning" :class="`fullFill_${index}`" 
+          v-if="ratingValue >= index"
+        ></b-icon-star-fill>
+        <b-icon-star-half variant="warning" :class="`halfFill_${index}`" 
+          v-if="ratingValue >= (index - 1 + 0.5) && ratingValue < index"
+        ></b-icon-star-half>
+        <b-icon-star variant="warning" :class="`noFill_${index}`" 
+          v-if="ratingValue < (index - 1 + 0.5)"
+        ></b-icon-star>
+      </span>
       <font style="font-size:15px;"> ({{reviewsCount}})</font>
     </div>
   </div>
