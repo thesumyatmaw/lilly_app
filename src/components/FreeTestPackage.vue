@@ -31,7 +31,7 @@
               at any time for € 49.50 per delivery.
             </li>
             <li>
-              Prices include VAT, plus <font color="#00afab">shipping costs</font>
+              Prices include VAT, plus <font class="pale-green-color">shipping costs</font>
               if applicable
             </li>
           </ul>
@@ -85,7 +85,6 @@
           </div>
         </b-col>
       </b-row>
-    
     </b-container>
   </div>
 </template>

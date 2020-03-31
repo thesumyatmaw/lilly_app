@@ -12,7 +12,7 @@
           v-if="ratingValue < (index - 1 + 0.5)"
         ></b-icon-star>
       </span>
-      <font style="font-size:15px;"> ({{reviewsCount}})</font>
+      <font class="review-counts"> ({{reviewsCount}})</font>
     </div>
   </div>
 </template>
@@ -31,11 +31,10 @@ export default {
     ratingValue: Number,
     reviewsCount: Number,
   },
-  data() {
-    return {
-      ratingVal: this.ratingValue,
-      reviewsNumbers: this.reviewsCount,
-    };
-  },
 };
 </script>
+<style scoped lang="scss">
+  .review-counts{
+    font-size: 15px;
+  }
+</style>
