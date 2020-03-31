@@ -24,7 +24,7 @@ By using Vue.js, BootstrapVue, SCSS
 ```
 - src/json/data.json is the file where Mock data is existed. 
 - It has JSON array which is the list of diaperSizers data and its related information such as title, 
-image links and trilPackIncluding items. 
+  image links and trilPackIncluding items. 
 - You can see how I structured the data format to use in the vue components.
 [
   {
@@ -63,17 +63,19 @@ image links and trilPackIncluding items.
 - Currently it has 5 diaperSize objects in the JSON array in this data.json file.
 - Please feel free to test by adding more diaperSize objects and trialPackIncludes Items. 
 - The only thing that has to be aware of is please make unique for diaperSizeName if you add more. 
-- Because I use this field to mark as uniquely active when it is clicked.
+- Because I use this field to mark as uniquely active when it is clicked. 
+  (With real life data, of course, I will choose to use Relational auto_increment Id/UUID 
+  to be more precise in unique cases)
 ```
 
 ### Components (src/components)
 ```
 - FreeTestPackage.vue is the component where the diaperSizes info 
-including trailPack Image, trialPack includes items are loaded and rendered. 
+  including trailPack Image, trialPack includes items are loaded and rendered. 
 - For the stars display based on rating value and reviews Count display, 
-FreeTestPackage.vue embeds RatingStarsDisplay.vue as a child component by passing props params "ratingValue" & "reviewsCount".
+  FreeTestPackage.vue embeds RatingStarsDisplay.vue as a child component by passing props params "ratingValue" &   "reviewsCount".
 - RatingStarsDisplay.vue is the component where it receives "ratingValue" & "reviewsCount" 
-from parent component and render the stars with the condition of no-fill, fill and half-fill.
+  from parent component and render the stars with the condition of no-fill, fill and half-fill.
 ```
 
 ### Responsiveness
