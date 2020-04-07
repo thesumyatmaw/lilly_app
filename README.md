@@ -1,19 +1,7 @@
 # lilly_app
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
+### This app is about
+A Vue app that shows UI for showing baby diaper sizes and its interaction with selection and responsiveness of the page.
 
 ### This app is implemented
 ```
@@ -84,6 +72,21 @@ Good thing that shouldn't be missed to check:
 - For large screen, diaperSizes buttons are left side and trialPack Image is right side.
 - For small screen, trialPack Image is at top and diaperSizes buttons are at bottom.
 - I used bootstrap column auto ordering for this.
+```
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
 ```
 
 ### Customize configuration
