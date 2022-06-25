@@ -4,7 +4,7 @@
       <b-row class="m-b-20">     
         <b-col md="6" class="diaperSizes order-2 order-lg-1">
           <h2>Discover our skin friendlines</h2>
-          <p>CHOOSE YOUR SIZE</p>
+          <p>CHOOSE SIZE</p>
           <b-nav pills>
             <b-nav-item
               class="diaperSize"
