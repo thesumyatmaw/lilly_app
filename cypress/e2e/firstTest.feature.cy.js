@@ -1,4 +1,4 @@
-describe ('Our first Test Suite', ()=> {
+describe (`Our first Test Suite ${Cypress.config().baseUrl}`, ()=> {
 	describe('Given access the test link',()=> {
 		before(() =>{
 			cy.visit('/')
