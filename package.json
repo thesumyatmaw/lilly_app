@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "serve cypress run",
-    "dev" : "start-server-and-test serve http://localhost:8080/ cy:run",
+    "serve-local-vue-and-run-cy-tests" : "start-server-and-test serve http://localhost:8080/ cy:run",
     "cy:run" : "cypress run"
   },
   "dependencies": {
