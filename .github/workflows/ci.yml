@@ -1,7 +1,7 @@
-name: Run Cypress tests
+name: Run Cypress Tests
 on: [push]
 jobs:
-  Run Cypress tests:
+  Run-Cypress-Tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
