@@ -17,6 +17,6 @@ jobs:
       - name: Start local vue project server
         run: |
           npm run serve
-          curl http://localhost:8000 
+          curl http://localhost:8080
       - name: Cypress run
         run: npm run cy:run
