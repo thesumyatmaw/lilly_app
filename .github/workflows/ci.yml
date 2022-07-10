@@ -12,11 +12,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14
-      - name: Install project dependencies
-        run: npm install
-      - name: Start local vue server & Run Cypress tests
-        run: npm run serve-local-vue-and-run-cy-tests
+      # - name: Install project dependencies
+      #   run: npm install
       # - name: Start local vue server & Run Cypress tests
-      #   uses: cypress-io/github-action@v4
-      #   with:
-      #     start: npm run serve
+      #   run: npm run serve-local-vue-and-run-cy-tests
+      - name: Start local vue server & Run Cypress tests
+        uses: cypress-io/github-action@v4
+        with:
+          start: npm run serve
