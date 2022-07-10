@@ -14,6 +14,6 @@ jobs:
           node-version: 14
       - name: Install project dependencies
         run: npm install
-      - name: Start local vue project server
+      - name: Start local vue project server and Run cypress tests
         run: npm run serve
         run: npm run cy:run
