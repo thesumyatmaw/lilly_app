@@ -15,4 +15,6 @@ jobs:
       - name: Install project dependencies
         run: npm install
       - name: Start local vue project server
-        run: npm run test
+        run: npm run serve
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
