@@ -1,4 +1,5 @@
 # lilly_app
+# lilly_app
 
 ### This app is about
 A Vue app that shows UI for showing baby diaper sizes and its interaction with selection and responsiveness of the page.
