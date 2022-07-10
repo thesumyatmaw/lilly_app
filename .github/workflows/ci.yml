@@ -14,9 +14,9 @@ jobs:
           node-version: 14
       - name: Install project dependencies
         run: npm install
-      - name: Start local vue project server
-        run: |
-          npm run serve
-          curl http://localhost:8080
-      - name: Cypress run
-        run: npm run cy:run
+      - name: Start local vue server & Run Cypress tests
+        run: npm run dev
+      # - name: Start local vue server & Run Cypress tests
+      #   uses: cypress-io/github-action@v4
+      #   with:
+      #     start: npm run serve
