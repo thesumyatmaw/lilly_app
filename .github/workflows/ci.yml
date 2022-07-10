@@ -16,5 +16,4 @@ jobs:
         run: npm install
       - name: Start local vue project server
         run: npm run serve
-      - name: Run Cypress Tests
         run: npm run cy:run
