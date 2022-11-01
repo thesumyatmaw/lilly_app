@@ -4,7 +4,7 @@ describe (`Our first Test Suite ${Cypress.config().baseUrl}`, ()=> {
 			cy.visit('/')
 		})
 
-		it('Then Title should be displayed', () => {
+		it('Then Title should be displayed for test', () => {
 			cy.get('h2').contains('Discover our skin friendlines')
 		})
 
